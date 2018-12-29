@@ -1,0 +1,100 @@
+.app {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 60rem;
+}
+
+.card {
+  display: block;
+  margin: 2rem 0;
+  border: 1px solid #f0f0f0;
+}
+
+.card__header {
+  padding: 0.5rem 1rem;
+}
+
+.card__title {
+  margin: 0;
+}
+
+.card__body {
+  padding: 1rem;
+}
+
+.card__footer {
+  padding: 0.5rem 1rem;
+}
+
+.card__footer p {
+  margin: 0;
+}
+
+.form.form--horizontal {
+  display: flex;
+}
+
+.form.form--vertical {
+  display: block;
+}
+
+.form__field, 
+.form__control {
+  flex: 1;
+  padding: 0.5rem;
+}
+
+.form.form--vertical .form__field .form__control {
+  width: 100%;
+}
+
+.form__submit {
+  padding: 0.5rem;
+}
+
+.form.form--horizontal .form__submit {
+  margin-left: 0.5rem;
+}
+
+.form__submit button {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.flex__box {
+  display: flex;
+
+  align-items: center;
+}
+
+.flex__item {
+  flex: 1;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.25rem 1rem;
+  border: 1px solid black;
+
+  border-radius: 1.5rem;
+}
+
+.fab-button {
+  position: fixed;
+  z-index: 100;
+  bottom: 3rem;
+  right: 3rem;
+
+  width: 5rem;
+  height: 5rem;
+
+  color: white;
+  line-height: 5rem;
+  text-align: center;
+
+  border-radius: 50%;
+
+  box-shadow: 0 0 4px black;
+
+  background: rgba(0, 0, 0, 87);
+}
